@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NA_SERVICES - FAQ</title>
+    <style>
+      body {
+    font-family: 'Poppins', sans-serif; /* Typographie moderne */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb; /* Bleu clair doux */
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Effet flottant léger */
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h2 {
+    font-size: 24px;
+    color: #1e90ff; /* Bleu ciel pour le titre */
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.faq li {
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0; /* Bordures légères */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq li:hover {
+    background-color: #eef5ff; /* Survol doux */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre au survol */
+}
+
+.faq li h3 {
+    margin: 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+    position: relative;
+    padding-right: 30px;
+}
+
+.faq li h3::before {
+    content: "+";
+    color: #1e90ff; /* Icône bleu ciel */
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.faq li h3.active::before {
+    content: "-";
+    transform: rotate(180deg);
+}
+
+.faq li h3::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #1e90ff;
+    border-radius: 50%; /* Petite icône ronde */
+    opacity: 0.8;
+}
+
+.faq li .reponse {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    padding-left: 15px;
+    border-left: 3px solid #1e90ff; /* Indicateur coloré */
+}
+
+.faq li .reponse.show {
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .faq li {
+        padding: 8px 12px;
+    }
+
+    .faq li h3 {
+        font-size: 16px;
+    }
+
+    .faq li .reponse {
+        font-size: 13px;
+    }
+}
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NA_SERVICES - FAQ</h1>
+        <div class="faq">
+            <h2>Remorquage SOS Véhicule</h2>
+            <ul>
+                <li>
+                    <h3>Qu'est-ce que NA_SERVICES ?</h3>
+                    <div class="reponse">
+                        <p>NA_SERVICES est un service de remorquage d'urgence pour les véhicules en panne ou accidentés.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Quels sont les avantages du NA_SERVICES ?</h3>
+                    <div class="reponse">
+                        <p>Les avantages du NA_SERVICES incluent la rapidité de l'intervention, la sécurité des véhicules et des passagers, et la disponibilité 24h/24 et 7j/7.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Comment contacter le service de remorquage SOS NA_SERVICES?</h3>
+                    <div class="reponse">
+                        <p>Vous pouvez contacter le service de remorquage SOS NA_SERVICES en appelant le numéro de téléphone indiqué sur notre site web ou en envoyant un message via notre formulaire de contact.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Dans quelles régions de Tunisie intervenez-vous ?</h3>
+                    <div class="reponse">
+                        <p>Nous couvrons toutes les régions de la Tunisie. Peu importe où vous vous trouvez, nous garantissons une intervention rapide et efficace</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Quels types de véhicules pouvez-vous remorquer ?</h3>
+                    <div class="reponse">
+                        <p>Voitures légères,
+                            Véhicules utilitaires,
+                            Camions,vehicule rétractables, Matériel Agricole,
+                            Motos et scooters.
+                            Véhicules en panne ou accidentés...</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Quels sont vos tarifs pour le remorquage ou le transport ?</h3>
+                    <div class="reponse">
+                        <p>Nos tarifs dépendent de la distance, du type de véhicule ou d’objet à transporter, et de la complexité du service. Contactez-nous pour obtenir un devis personnalisé.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Comment garantir la sécurité de mon véhicule ou objet transporté ?</h3>
+                    <div class="reponse">
+                        <p>Nous utilisons des équipements modernes et des méthodes sécurisées pour transporter vos véhicules et objets. Notre équipe est expérimentée et formée pour manipuler vos biens avec soin.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Comment puis-je vous contacter pour plus d'informations ?</h3>
+                    <div class="reponse">
+                        <p>Vous pouvez nous contacter via :
+
+                            Téléphone : [56727256]
+                            Email : [nasri@gmail.com]
+                            Page Facebook et TikTok : NA_Services</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>9. Quels modes de paiement acceptez-vous ?</h3>
+                    <div class="reponse">
+                        <p>Nous acceptons les paiements en espèces.</p>
+                    </div>
+                </li>
+                
+            
+            </ul>
+        </div>
+    </div>
+    <script>
+        const faq = document.querySelectorAll('.faq li h3');
+        faq.forEach((item) => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+                item.nextElementSibling.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
+```

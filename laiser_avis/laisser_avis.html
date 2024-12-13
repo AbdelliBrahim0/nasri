@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="laisser_avis.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <div class="brand">
+        <a href="#hero">
+            <h1>NA_S<span>E</span> R<span>V</span>I<span>CE</span></h1>
+        </a>
+    </div>
+
+    <div class="center">
+        <div class="containerr">
+            <div class="contact-box">
+                <div class="leftt"></div>
+                <div class="rightt">
+                    <h2>Laisser votre avis</h2>
+                    <img src="https://img.icons8.com/?size=100&id=FqeAefvTgRhz&format=png&color=22C3E6" style="width: 40px; height: 40px; vertical-align: middle; margin-right: 8px;"/>
+                    <form id="feedbackForm" onsubmit="handleSubmit(event)">
+                        <input type="text" class="field" placeholder="Your Name" id="name" required>
+                        <input type="email" class="field" placeholder="Your Email" id="email" required>
+                        <input type="tel" class="field" placeholder="Phone" id="phone" required>
+                        <textarea placeholder="Message" class="field" id="message" required></textarea>
+                        <input type="file" class="field" id="photo">
+                        <button type="submit" class="btn">Send it <img src="https://img.icons8.com/?size=100&id=IJ7S8syr-iGK&format=png&color=FFFFFF" style="width: 30px; height: 30px; vertical-align: middle; margin-right: 8px;"/></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="laisser_avis.js"></script>
+    <footer>
+        <div class="containEr">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: nasredine.ouertani@gmail.com</p>
+                <p>Phone: +216 56727256</p>
+                <p>Address: Grand Tunis</p>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; NA_SERVICE. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
